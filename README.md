@@ -17,6 +17,8 @@ I work in fintech operations and key accounts by day, and spend my evenings buil
 
 **[trumpinator](https://github.com/ilodezis/trumpinator)** — Paste any text, get it back rewritten as a Trump post. Runs on Cloudflare Workers and Workers AI.
 
+**[clienthello](https://github.com/ilodezis/clienthello)** — Wireshark-styled arcade game where you play a single packet trying to reach YouTube past Russia's DPI. Pick VLESS + Reality, Tor with a bridge, or WireGuard, then dodge RST storms, IP-ban walls, and mobile whitelists. One HTML file, no build step. [Play it](https://clienthello.ilodezis.com).
+
 **[stack](https://github.com/ilodezis/stack)** — Offline local-first PWA for tracking daily supplements, rituals, and skincare routines.
 
 ---
