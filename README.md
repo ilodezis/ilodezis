@@ -39,13 +39,13 @@ I work in fintech operations and key accounts by day, and spend my evenings buil
 
 <p align="left">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/overview-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/overview-light.svg" />
-    <img height="165" alt="GitHub Activity" src="./assets/overview-dark.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ilodezis/ilodezis/output/overview-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ilodezis/ilodezis/output/overview-light.svg" />
+    <img height="165" alt="GitHub Activity" src="https://raw.githubusercontent.com/ilodezis/ilodezis/output/overview-dark.svg" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/langs-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/langs-light.svg" />
-    <img height="165" alt="Top Languages" src="./assets/langs-dark.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ilodezis/ilodezis/output/langs-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ilodezis/ilodezis/output/langs-light.svg" />
+    <img height="165" alt="Top Languages" src="https://raw.githubusercontent.com/ilodezis/ilodezis/output/langs-dark.svg" />
   </picture>
 </p>

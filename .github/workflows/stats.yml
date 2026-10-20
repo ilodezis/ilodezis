@@ -1,0 +1,43 @@
+name: Stats
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/**", ".github/workflows/stats.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stats
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Test
+        run: python3 -m unittest discover -s scripts -p "test_*.py"
+
+      - name: Render cards
+        env:
+          GH_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: python3 scripts/stats.py out
+
+      # The cards live on an orphan branch that is force-pushed every run,
+      # so the daily refresh never adds commits to main.
+      - name: Publish to output branch
+        working-directory: out
+        run: |
+          git init -q -b output
+          git add .
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -q -m "chore: update stats cards"
+          git push -q --force \
+            "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" output
