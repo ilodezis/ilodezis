@@ -1,0 +1,39 @@
+# Timur
+
+I write code mostly when doing something by hand starts getting on my nerves, or when I want my health data, workouts, and everyday tools talking to each other without ten subscriptions in the middle.
+
+I work in fintech operations and key accounts by day, and spend my evenings building self-hosted apps, MCP connectors, and small web tools. Most of it lives in private repos wired into my own setup, with a few public projects below.
+
+[![Telegram](https://img.shields.io/badge/telegram-@ilodezis-26A5E4?style=flat-square&logo=telegram&logoColor=white&labelColor=18181b)](https://t.me/ilodezis)
+[![ilodezis.com](https://img.shields.io/badge/web-ilodezis.com-6366f1?style=flat-square&labelColor=18181b)](https://ilodezis.com)
+
+---
+
+## Projects
+
+**[vitals](https://github.com/ilodezis/vitals)** — Self-hosted health data lake and dashboard across 15 domains. Pulls Garmin and Hevy data into PostgreSQL, parses lab PDFs and InBody sheets with LLMs, sends morning and evening Telegram briefs, and gives Claude 75 read/write MCP tools over OAuth 2.0.
+
+**[hevy-mcp](https://github.com/ilodezis/hevy-mcp)** — Remote MCP server connecting Claude to the Hevy workout tracker for reading workout history, tracking progression, and editing routines from chat.
+
+**[trumpinator](https://github.com/ilodezis/trumpinator)** — Paste any text, get it back rewritten as a Trump post. Runs on Cloudflare Workers and Workers AI.
+
+**[clienthello](https://github.com/ilodezis/clienthello)** — Wireshark-styled arcade game where you play a single packet trying to reach YouTube past Russia's DPI. Pick VLESS + Reality, Tor with a bridge, or WireGuard, then dodge RST storms, IP-ban walls, and mobile whitelists. One HTML file, no build step. [Play it](https://clienthello.ilodezis.com).
+
+**[stack](https://github.com/ilodezis/stack)** — Offline local-first PWA for tracking daily supplements, rituals, and skincare routines.
+
+---
+
+## Stats
+
+<p align="left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ilodezis/ilodezis/output/overview-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ilodezis/ilodezis/output/overview-light.svg" />
+    <img height="165" alt="GitHub Activity" src="https://raw.githubusercontent.com/ilodezis/ilodezis/output/overview-dark.svg" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ilodezis/ilodezis/output/langs-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ilodezis/ilodezis/output/langs-light.svg" />
+    <img height="165" alt="Top Languages" src="https://raw.githubusercontent.com/ilodezis/ilodezis/output/langs-dark.svg" />
+  </picture>
+</p>
