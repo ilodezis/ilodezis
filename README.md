@@ -13,6 +13,8 @@ I work in fintech operations and key accounts by day, and spend my evenings buil
 
 **[vitals](https://github.com/ilodezis/vitals)** — Self-hosted health data lake and dashboard across 15 domains. Pulls Garmin and Hevy data into PostgreSQL, parses lab PDFs and InBody sheets with LLMs, sends morning and evening Telegram briefs, and gives Claude 75 read/write MCP tools over OAuth 2.0.
 
+**[yandex-station-mcp](https://github.com/ilodezis/yandex-station-mcp)** — Local-first MCP server for rooted Yandex Station smart speakers over SSH. Gives AI agents speech synthesis, hardware RGBW LED ring control with frame persistence, ALSA audio, on-speaker timers, ambient light sensing, and an embedded OAuth 2.0 PKCE provider for Claude.ai.
+
 **[hevy-mcp](https://github.com/ilodezis/hevy-mcp)** — Remote MCP server connecting Claude to the Hevy workout tracker for reading workout history, tracking progression, and editing routines from chat.
 
 **[trumpinator](https://github.com/ilodezis/trumpinator)** — Paste any text, get it back rewritten as a Trump post. Runs on Cloudflare Workers and Workers AI.
