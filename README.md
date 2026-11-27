@@ -11,6 +11,8 @@ I work in fintech operations and key accounts by day, and spend my evenings buil
 
 ## Projects
 
+**[gramcp](https://github.com/ilodezis/gramcp)** — Telegram MCP server that signs in as your own account over MTProto and assumes every message it reads is a prompt injection. A Rust policy layer sits in front of all 68 tools: a send whitelist pinned to usernames, a tier ceiling, a kill switch, persistent rate limits, and an audit log written before every action, so a fooled model hits the same walls as an honest one. Prebuilt binaries for Linux, macOS, and Windows, plus a Docker image.
+
 **[paperjam](https://github.com/ilodezis/paperjam)** — Self-hosted archive for passports, contracts, and policies with an MCP server built in, so an AI agent can find, read, and file documents across 14 tools. Reads every upload locally (PDF text, Tesseract OCR, passport and ID machine-readable zones with check digits verified), fills typed fields for 21 document types, and runs as one Rust binary on SQLite. [Website](https://paperjam.ilodezis.com).
 
 **[vitals](https://github.com/ilodezis/vitals)** — Self-hosted health data lake and dashboard across 15 domains. Pulls Garmin and Hevy data into PostgreSQL, parses lab PDFs and InBody sheets with LLMs, sends morning and evening Telegram briefs, and gives Claude 75 read/write MCP tools over OAuth 2.0.
